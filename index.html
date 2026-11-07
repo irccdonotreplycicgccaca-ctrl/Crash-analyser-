@@ -43,13 +43,8 @@
 
             resultatDiv.innerHTML = "<div class='loading'>Analyse statistique en cours via Gemini...</div>";
 
-            // 🔑 Insérez votre clé API Google AI Studio ici entre les guillemets
-            const apiKey = "VOTRE_CLE_API_GOOGLE"; 
-            
-            if (apiKey === "VOTRE_CLE_API_GOOGLE") {
-                resultatDiv.innerText = "Erreur : Veuillez modifier le code de la page pour insérer votre véritable clé API Google.";
-                return;
-            }
+            // 🔑 Votre clé API Google AI Studio intégrée
+            const apiKey = "AQ.Ab8RN6I58iQqtptaG-HQmbX4g1z6Ad-yjKqI--__a3_VeAeBtQ"; 
 
             const promptTexte = `Actue en tant qu'expert en probabilités et théorie des jeux. Je te fournis les multiplicateurs des 5 derniers tours d'un jeu de Crash : [ ${donnees} ].
 Fais une analyse de cette mini-série :
